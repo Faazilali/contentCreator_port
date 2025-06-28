@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Creator - Digital Content & Innovation</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+        <div class="container-xxl">
+            <a href="#home">
+                <img src="logo.png" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#polls">Engagement</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container-xxl">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10 col-lg-8 text-center">
+                    <h1 class="hero-title mb-4">Creating the Future with AI</h1>
+                    <p class="hero-subtitle mb-4 fs-5 fs-md-4">Where artificial intelligence meets boundless creativity. Transforming ideas into stunning digital experiences through cutting-edge AI tools and innovative storytelling.</p>
+                    <a href="#gallery" class="cta-button">Explore My Work</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="py-section" id="about">
+        <div class="container-xxl">
+            <h2 class="section-title">About Me</h2>
+            <div class="row align-items-center gy-5">
+                <div class="col-12 col-lg-5 d-flex justify-content-center">
+                    <div class="about-image-container">
+                        <div class="about-image">
+                            <img src="img.jpg" alt="About Me" class="profile-img">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-7">
+                    <div class="about-text">
+                        <h3 class="h2 mb-3">Digital Innovator & AI Enthusiast</h3>
+                        <p class="fs-5 mb-4">I'm a passionate digital content creator specializing in AI-powered creativity. With a deep understanding of cutting-edge artificial intelligence tools, I craft compelling visual stories, engaging video content, and interactive experiences that push the boundaries of what's possible.</p>
+                        <p class="fs-5 mb-4">My work spans across multiple platforms, combining technical expertise with artistic vision to create content that not only captivates audiences but also showcases the incredible potential of AI in creative industries.</p>
+                        <div class="skills">
+                            <span class="skill-tag">AI Video Generation</span>
+                            <span class="skill-tag">Creative Coding</span>
+                            <span class="skill-tag">Digital Art</span>
+                            <span class="skill-tag">Content Strategy</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Content Gallery -->
+<section class="py-section" id="gallery">
+    <div class="container-xxl">
+        <h2 class="section-title">Content Gallery</h2>
+        <div class="row justify-content-center mb-5">
+            <div class="col-12 text-center">
+                <button class="btn filter-btn active" data-filter="all">All</button>
+                <button class="btn filter-btn" data-filter="images">AI Images</button>
+                <button class="btn filter-btn" data-filter="reels">Reels</button>
+            </div>
+        </div>
+        <div class="row gx-4 gy-5" id="gallery-grid">
+            <div class="col-12 col-sm-6 col-lg-4 gallery-column" data-category="reels">
+                <a href="https://www.instagram.com/p/DLbnPMoK5zw/" target="_blank" class="text-decoration-none">
+                    <div class="gallery-item">
+                        <div class="gallery-image">
+                            <i class="fas fa-film"></i>
+                        </div>
+                        <div class="gallery-content">
+                            <h3 class="gallery-title">AI in Content Creation</h3>
+                            <p class="gallery-description">From thumbnail magic 🎨 to 
+                                scriptwriting 📝 and managing posts like a pro 📅 — AI 
+                                is the real MVP behind the scenes.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4 gallery-column" data-category="images">
+                <a href="https://www.instagram.com/p/DLXYns6Rq1b/?img_index=1" target="_blank" class="text-decoration-none">
+                    <div class="gallery-item">
+                        <div class="gallery-image">
+                            <i class="fas fa-image"></i>
+                        </div>
+                        <div class="gallery-content">
+                            <h3 class="gallery-title">5 AI Tools</h3>
+                            <p class="gallery-description">We’ve rounded up 5 of the most effective AI tools that boost productivity across writing, design, coding, email, and task management:</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4 gallery-column" data-category="reels">
+                <a href="https://www.instagram.com/p/DLSKnzaqmyk/" target="_blank" class="text-decoration-none">
+                    <div class="gallery-item">
+                        <div class="gallery-image">
+                            <i class="fas fa-film"></i>
+                        </div>
+                        <div class="gallery-content">
+                            <h3 class="gallery-title">Managing business with AI</h3>
+                            <p class="gallery-description">🤖Managing your business 
+                                customer service with AI chatbots and the results are 
+                                incredible!</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4 gallery-column" data-category="reels">
+                <a href="https://www.instagram.com/p/DLKmuctqvV1/" target="_blank" class="text-decoration-none">
+                    <div class="gallery-item">
+                        <div class="gallery-image">
+                            <i class="fas fa-film"></i>
+                        </div>
+                        <div class="gallery-content">
+                            <h3 class="gallery-title">AGI</h3>
+                            <p class="gallery-description">🤖 What if AI could think like YOU?
+                                Here’s what AGI really means — explained in 30 seconds.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4 gallery-column" data-category="images">
+                <a href="https://www.instagram.com/p/DLL_nd0RIM9/?img_index=1" target="_blank" class="text-decoration-none">
+                    <div class="gallery-item">
+                        <div class="gallery-image">
+                            <i class="fas fa-image"></i>
+                        </div>
+                        <div class="gallery-content">
+                            <h3 class="gallery-title">AGI vs ChatGPT</h3>
+                            <p class="gallery-description">AGI 🤯 isn’t just another 
+                                chatbot. It’s the dream (or fear?) of building machines 
+                                that truly think.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+    </div>
+</section>
+
+
+
+    <!-- Polls & Engagement -->
+    <section class="py-section" id="polls">
+        <div class="container-xxl">
+            <h2 class="section-title">Community Engagement</h2>
+            <div class="row gy-4">
+                <div class="col-12 col-lg-6">
+                    <div class="poll-card">
+                        <h3 class="poll-question">🧠 How is GPT used in AI Clips content creation?</h3>
+                        <div class="poll-option" data-option="midjourney">
+                            <span>Script Writing & Captions</span>
+                            <span class="poll-percentage">35%</span>
+                        </div>
+                        <div class="poll-option" data-option="dalle">
+                            <span>Hashtag and SEO suggestions</span>
+                            <span class="poll-percentage">28%</span>
+                        </div>
+                        <div class="poll-option" data-option="runway">
+                            <span>Content Planning</span>
+                            <span class="poll-percentage">22%</span>
+                        </div>
+                        <div class="poll-option" data-option="stable">
+                            <span>Instagram post ideas & hooks</span>
+                            <span class="poll-percentage">15%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="poll-card">
+                        <h3 class="poll-question">📹 What kind of AI-based content is produced on AI Clips?</h3>
+                        <div class="poll-option" data-option="tutorials">
+                            <span>AI Tools Tutorials</span>
+                            <span class="poll-percentage">42%</span>
+                        </div>
+                        <div class="poll-option" data-option="showcases">
+                            <span>Creative Transformations</span>
+                            <span class="poll-percentage">31%</span>
+                        </div>
+                        <div class="poll-option" data-option="reviews">
+                            <span>Reels & Short Edits</span>
+                            <span class="poll-percentage">18%</span>
+                        </div>
+                        <div class="poll-option" data-option="predictions">
+                            <span>Workflow Automation with AI</span>
+                            <span class="poll-percentage">9%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-section" id="contact">
+        <div class="container-xxl">
+            <h2 class="section-title">Let's Connect</h2>
+            <div class="row gy-5">
+                <div class="col-12 col-lg-6">
+                    <div class="contact-info">
+                        <h3 class="h2 mb-3">Ready to Collaborate?</h3>
+                        <p class="fs-5 mb-4">I'm always excited to work on innovative projects that push the boundaries of AI and creativity. Whether you're looking for content creation, AI consultation, or creative partnerships, let's bring your vision to life.</p>
+                        <div class="social-links">
+                            <a href="https://www.instagram.com/ai.clips16/" class="social-link" title="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/company/107552151/admin/dashboard/" class="social-link" title="LinkedIn">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <form class="contact-form" id="contact-form" 
+                    action="https://formspree.io/f/xblyqqyk" method="POST" onsubmit="alert('Thank you for your message! I will get back to you soon.')">
+
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" name="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" class="form-control" id="subject" name="subject" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn submit-btn w-100">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+        <div class="container-xxl">
+            <p class="mb-0">&copy; 2025 AI Clips. Crafting the future with artificial intelligence.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+    </body>
+</html>
+       
